@@ -1,0 +1,79 @@
+.container {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    min-height: calc(100vh - 160px);
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.empty {
+    text-align: center;
+    color: #777;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.text {
+    font-size: 16px;
+    margin: 0;
+}
+
+.quantity {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.clearButton {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.clearButton:hover {
+    background-color: #d9363e;
+}
+
+.payButton {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 60px;
+}
+
+.payButton:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,138 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  min-height: calc(100vh - 160px);
+  color: #eaeaea;
+  font-family: "Arial", sans-serif;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  background: rgba(30, 30, 30, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 2px solid #4caf50;
+  transition: transform 0.3s;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
+}
+
+.name {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.email {
+  color: #aaaaaa;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.logoutButton {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ff4d4f, #ff575a);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logoutButton:hover {
+  background: linear-gradient(135deg, #d9363e, #e04545);
+  transform: translateY(-2px);
+}
+
+.orders {
+  background: rgba(40, 40, 40, 0.95);
+  color: #f5f5f5;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.orders h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.empty {
+  color: #999999;
+  font-size: 16px;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background: rgba(50, 50, 50, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.image {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin-right: 15px;
+  object-fit: cover;
+  border: 2px solid #4caf50;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.quantity {
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.message {
+  margin-top: 200px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}

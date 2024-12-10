@@ -1,0 +1,39 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.link:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.phone {
+    margin-right: 20px;
+}
+
+.phoneText {
+    margin: 0;
+    font-size: 16px;
+}
+
