@@ -42,14 +42,14 @@
   }
   
   .input:focus {
-    border-color: #007bff;
+    border-color: #b0b300;
   }
   
   .button {
     padding: 10px;
     font-size: 16px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #b0b300;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -57,6 +57,6 @@
   }
   
   .button:hover {
-    background-color: #0056b3;
+    background-color: #b0b300;
   }
   

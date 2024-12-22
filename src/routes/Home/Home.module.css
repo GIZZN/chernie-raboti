@@ -4,7 +4,7 @@
 }
 
 .main {
-    padding: 20px;
+    padding: 35px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -13,14 +13,15 @@
 .title {
     font-size: 32px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .line {
-    width: 100px;
+    width: 1700px;
     height: 12px;
+    border-radius: 43px;
     background-color: black;
-    margin: 20px auto;
+    margin: 35px auto;
 }
 
 .image {
@@ -50,21 +51,24 @@
 }
 
 .link {
+    width: 1700px;
+    height: 45px;
+    background-color: black;
+    margin: 35px auto;
     display: inline-block;
     text-decoration: none;
     font-size: 18px;
     color: white;
-    background-color: black;
     padding: 10px 20px;
     border-radius: 4px;
     text-align: center;
-    margin: 20px auto;
-    transition: background-color 0.3s, color 0.3s;
+    margin: 20px space-between;
+    transition: background-color 0s, color 0s;
 }
 
 .link:hover {
-    background-color: white;
-    color: black;
+    background: linear-gradient(135deg, #1b1b1b, #111111);
+    color: rgb(243, 238, 238);
     border: 1px solid black;
 }
 

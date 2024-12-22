@@ -1,12 +1,12 @@
 .container {
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 35px auto;
   padding: 30px;
   text-align: center;
-  background: linear-gradient(135deg, #1f1f1f, #292929);
+  background: linear-gradient(523deg, #0f0f0f,  #c8e05a);
   color: #eaeaea;
   border-radius: 12px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.89);
   font-family: "Arial", sans-serif;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .image {
-  width: 100%;
+  width: 50%;
   max-width: 450px;
   height: auto;
   margin-bottom: 25px;
@@ -38,17 +38,17 @@
   padding: 12px 25px;
   font-size: 18px;
   font-weight: bold;
-  color: #ffffff;
-  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: #000000;
+  background: linear-gradient(135deg, #ffffff, #ffffff);
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .backButton:hover {
-  background: linear-gradient(135deg, #0056b3, #003f8a);
+  background: linear-gradient(135deg, #000000, #b0b300);
   transform: translateY(-2px);
 }
 
@@ -57,8 +57,8 @@
   padding: 12px 25px;
   font-size: 18px;
   font-weight: bold;
-  color: #ffffff;
-  background: linear-gradient(135deg, #28a745, #218838);
+  color: #000000;
+  background: linear-gradient(135deg, #b0b300, #b0b300);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -67,7 +67,7 @@
 }
 
 .addButton:hover {
-  background: linear-gradient(135deg, #218838, #1e7e34);
+  background: linear-gradient(135deg, #b0b300, #b0b300);
   transform: translateY(-2px);
 }
 

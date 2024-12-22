@@ -3,23 +3,24 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
+    background-color: #141414;
+    border: 1px solid #000000;
+    border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 10px rgba(255, 255, 255, 0.97)15;
 }
 
 .image {
     width: 100px;
-    height: 100px;
-    object-fit: cover;
-    margin-bottom: 15px;
+    height: 100%;
+    margin: auto;
+    object-fit: auto;
+    margin-bottom: 25px;
 }
 
 .text {
@@ -32,41 +33,41 @@
 
 .button {
     padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
+    background-color: #b0b300;
+    color: #000000;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #b0b300;
 }
 
 .detailsButton {
     display: inline-block;
     padding: 10px 15px;
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 13px;
+    font-size: 23px;
     font-weight: bold;
     text-align: center;
-    color: #ffffff;
-    background-color: #007bff;
+    color: #000000;
+    background-color: #b0b300;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     transition: background-color 0.3s, transform 0.2s;
     cursor: pointer;
 }
 
 .detailsButton:hover {
-    background-color: #0056b3;
+    background-color: #b0b300;
     transform: translateY(-2px);
 }
 
 .detailsButton:active {
-    background-color: #004085;
+    background-color: #b0b300;
     transform: translateY(0);
 }

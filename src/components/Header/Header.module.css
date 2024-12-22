@@ -3,9 +3,9 @@
   justify-content: space-between;
   align-items: center;
   background-color: #000;
-  padding: 20px 40px;
+  padding:35px;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 31px;
 }
 
 .backet{
@@ -25,38 +25,41 @@
 }
 
 .title {
-  font-size: 38px;
+  font-size: 55px;
   color: #fff;
   margin: 0;
 }
 
 .nav {
   display: flex;
-  gap: 20px;
+  gap: 35px;
 }
 
 .navLink {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 10px;
+  padding:15px 15px;
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  width: 150px;
+  height: 70px;
+  font-size: 35px;
   background-color: transparent;
-  border: 1px solid #fff;
-  border-radius: 4px;
+  border: 0px;
+  border-radius: 15px;
   transition: background-color 0.3s, color 0.3s;
+  margin-top: 15px;
 }
 
 .navLink:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #252525be;
+  color: #ffffff;
 }
 
 .avatar {
-  width: 33px;
-  height: 33px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -79,8 +82,8 @@
   }
 
   .title {
-    font-size: 28px;
-    margin-top: 10px;
+    font-size: 35px;
+    margin-top: 46px;
   }
 
   .nav {
@@ -99,7 +102,7 @@
 
 @media (max-width: 480px) {
   .header {
-    padding: 10px 15px;
+    padding: 60px 60px;
   }
 
   .backet{
@@ -118,8 +121,8 @@
   }
 
   .navLink {
-    font-size: 12px;
-    padding: 5px;
+    font-size: 25px;
+    padding:35px;
   }
 
   .avatar {
